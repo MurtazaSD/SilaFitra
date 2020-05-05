@@ -1,0 +1,85 @@
+{
+    "name": "Family",
+    "fields": [
+        {
+            "fieldName": "hofEjamaatId",
+            "fieldType": "Long",
+            "fieldValidateRules": [
+                "required",
+                "unique"
+            ]
+        },
+        {
+            "fieldName": "hofFullName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "emailAddress",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "phoneNumber",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "totalGents",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "totalLadies",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "totalKids",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "totalPregnants",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "totalDecesead",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "zakatulFitr",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "najwatusukr",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "khumus",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "silatulImam",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "nazrulMaqam",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "lastUpdateTstamp",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "submittedBy",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200505172100",
+    "entityTableName": "family",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,37 @@
+{
+  "silaFitraApp": {
+    "family": {
+      "home": {
+        "title": "Families",
+        "createLabel": "Create a new Family",
+        "createOrEditLabel": "Create or edit a Family",
+        "notFound": "No Families found"
+      },
+      "created": "A new Family is created with identifier {{ param }}",
+      "updated": "A Family is updated with identifier {{ param }}",
+      "deleted": "A Family is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Family {{ id }}?"
+      },
+      "detail": {
+        "title": "Family"
+      },
+      "hofEjamaatId": "Hof Ejamaat Id",
+      "hofFullName": "Hof Full Name",
+      "emailAddress": "Email Address",
+      "phoneNumber": "Phone Number",
+      "totalGents": "Total Gents",
+      "totalLadies": "Total Ladies",
+      "totalKids": "Total Kids",
+      "totalPregnants": "Total Pregnants",
+      "totalDecesead": "Total Decesead",
+      "zakatulFitr": "Zakatul Fitr",
+      "najwatusukr": "Najwatusukr",
+      "khumus": "Khumus",
+      "silatulImam": "Silatul Imam",
+      "nazrulMaqam": "Nazrul Maqam",
+      "lastUpdateTstamp": "Last Update Tstamp",
+      "submittedBy": "Submitted By"
+    }
+  }
+}

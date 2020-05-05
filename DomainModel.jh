@@ -1,0 +1,22 @@
+entity Family {
+	hofEjamaatId	Long required unique
+	hofFullName String
+    emailAddress	String
+    phoneNumber	String
+    TotalGents Integer
+    TotalLadies Integer
+    TotalKids	Integer
+    TotalPregnants Integer
+    TotalDecesead	Integer
+	ZakatulFitr	Float
+    Najwatusukr	Float
+    Khumus		Float
+    SilatulImam	Float
+    NazrulMaqam	Float
+    LastUpdateTstamp LocalDate
+    SubmittedBy	String
+    
+}
+
+
+
