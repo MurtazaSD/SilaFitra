@@ -35,7 +35,16 @@
     "entitySuffix": "",
     "dtoSuffix": "DTO",
     "otherModules": [],
-    "blueprints": []
+    "blueprints": [],
+    "aws": {
+      "applicationName": "sila-fitra",
+      "environmentName": "sila-fitra-prod",
+      "bucketName": "sila-fitra",
+      "instanceType": "t2.micro",
+      "awsRegion": "ap-southeast-2",
+      "dbName": "SilaFitra",
+      "dbInstanceClass": "db.t2.micro"
+    }
   },
   "git-provider": "GitHub",
   "git-company": "MurtazaSD",
